@@ -7,6 +7,15 @@
 .mb-sm { margin-bottom: 8px;}
 .mb-md { margin-bottom: 16px;}
 .mb-lg { margin-bottom: 32px;}
+.mt-xs { margin-top: 4px;}
+.mt-sm { margin-top: 8px;}
+.mt-md { margin-top: 16px;}
+.mt-lg { margin-top: 32px;}
+.mb-none { margin-bottom: 0 !important; }
+
+a {
+  color: $primary-red;
+}
 
 .narrow-container {
   max-width: 680px;
@@ -41,4 +50,28 @@ h2.heading {
   margin: 0 auto;
   display: block;
   margin-bottom: 12px;
+}
+
+.content {
+  margin-top: 36px;
+}
+
+.content h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: $bold;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 36px;
+  @include min-bp(490px) {
+    font-size: 2.7em;
+  }
+  &:after {
+    content: '';
+    width: 80px;
+    height: 2px;
+    background: $primary-yellow;
+    margin: 0 auto;
+    display: block;
+    margin-top: 8px;
+  }
 }

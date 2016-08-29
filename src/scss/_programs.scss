@@ -1,0 +1,45 @@
+.programs .content {
+  margin-bottom: 64px;
+}
+
+.programs .program {
+  margin-bottom: 64px;
+  &:before {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 2px;
+    background: $primary-yellow;
+    margin-bottom: 12px;
+  }
+  .title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.6em;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  .schedule {
+    color: $primary-red;
+    font-size: 1.1em;
+    margin: 0;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+  }
+  .attire {
+    margin: 0;
+  }
+  .description {
+    font-size: 1.15em;
+    line-height: 1.7em;
+  }
+  .cta .button {
+    padding: 8px 36px;
+    background: $primary-red;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    &:hover {
+      background: darken($primary-red, 10%);
+    }
+  }
+}

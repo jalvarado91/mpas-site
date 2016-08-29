@@ -21,7 +21,8 @@ gulp.task('sass', function () {
 
 gulp.task('serve', ['sass'], function() {
   browserSync.init({
-    server: "./"
+    // server: "./",
+    proxy: "mpas.dev"
   });
 
   gulp.watch("src/scss/**/*.scss", ['sass']);

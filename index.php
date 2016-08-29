@@ -1,56 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Miami Performing Arts Studio</title>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-</head>
-<body class="home">
-
-  <div class="nav">
-    <div class="top">
-      <div class="nav-container">
-        <div class="top__nav-wrap">
-          <div class="logo">
-            <img class="img-responsive" src="/assets/img/logo.png" alt="">
-          </div>
-          <div class="menu">
-            <ul class="navigation">
-              <li><a href="#">Home</a></li>
-              <li class="dropdown">
-                  <a href="#">Programs <span class="fa fa-angle-down"></span></a>
-                  <ul class="subnav">
-                      <li><a href="#">Musical Theater</a></li>
-                      <li><a href="#">Dance</a></li>
-                      <li><a href="#">Music</a></li>
-                      <li><a href="#">Pre-Professional Program</a></li>
-                  </ul>
-              </li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a class="register-btn" href="#">Register</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bottom">
-      <div class="nav-container">
-        <div class="bottom__nav-wrap">
-          <div class="tagline">
-            Where Professionals Teach Your Kids
-          </div>
-          <div class="phone">
-            Call Us: <a href="tel:7868086033">786.808.6033</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<?php
+$bodyClass = "home";
+include('./includes/head.php'); ?>
 
   <!-- Home Slider -->
   <section class="home-slider">
@@ -151,36 +101,4 @@
     </div>
   </div>
 
-  <div class="footer">
-    <div class="top">
-      <div class="footer-container">
-        <div class="menu">
-          <div class="main">
-            <a href="#">Schedule</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-            <a href="#">Register</a>
-          </div>
-          <div class="extended">
-            <a href="#">Musical Theater</a>
-            <a href="#">Dance</a>
-            <a href="#">Music</a>
-            <a href="#">Pre-Professional Program</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bottom">
-      <div class="footer-container">
-        &copy; Miami Performing Arts Studio &nbsp; / &nbsp;
-        15904 SW 92nd Ave Palmetto Bay, FL 33157  &nbsp; / &nbsp;
-        <a href="tel:7868086033">786.808.6033</a>
-      </div>
-    </div>
-  </div>
-
-  <script src="/assets/js/jquery-3.1.0.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-  <script src="/assets/js/scripts.js"></script>
-</body>
-</html>
+<?php include('./includes/footer.php'); ?>
