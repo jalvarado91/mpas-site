@@ -1,8 +1,7 @@
 <?php
 $bodyClass = "contact";
 include('./includes/head.php'); ?>
-
-  <iframe width="100%" height="380" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJydGEwSHE2YgRmJoDXSBhmOA&key=AIzaSyDa8l9ZfSZPg000M4hcrI9oP_epIiuSXW4" allowfullscreen></iframe>
+  
   <div class="content mb-lg">
     <div class="container">
       <h1>Contact</h1>
@@ -68,5 +67,6 @@ include('./includes/head.php'); ?>
       </div>
     </div>
   </div>
+  <iframe width="100%" height="380" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJydGEwSHE2YgRmJoDXSBhmOA&key=AIzaSyDa8l9ZfSZPg000M4hcrI9oP_epIiuSXW4" allowfullscreen></iframe>
 
 <?php include('./includes/footer.php'); ?>

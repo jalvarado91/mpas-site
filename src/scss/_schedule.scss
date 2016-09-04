@@ -1,0 +1,75 @@
+.schedule .content {
+  margin-bottom: 64px;
+}
+
+.schedule .all-days .day {
+  margin-bottom: 32px;
+  h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.6em;
+    margin: 0;
+    margin-bottom: 32px;
+    &:after {
+      content: '';
+      display: block;
+      width: 90px;
+      height: 2px;
+      background: $primary-yellow;
+      margin-top: 8px;
+    }
+  }
+  .room {
+    margin-bottom: 24px;
+    @include min-bp(786px){
+      margin-bottom: 0;
+    }
+    h4 {
+      color: $primary-red;
+      font-size: 1em;
+      margin: 0;
+      letter-spacing: 3px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .event {
+      margin-bottom: 12px;
+      font-size: 1.1em;
+      .time {
+        font-weight: $bold;
+        margin: 0;
+      }
+      .detail {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.all-prices {
+  margin-top: 36px;
+  .price {
+    display: flex;
+    margin-bottom: 16px;
+    .value {
+      font-family: 'Playfair Display', sans-serif;
+      font-size: 1.9em;
+      font-weight: $bold;
+      line-height: 1em;
+      color: lighten(black, 30%);
+      margin-right: 12px;
+    }
+    .info {
+      font-size: 1.7em;
+    }
+    .title {
+      margin: 0;
+      line-height: 1.4em;
+    }
+    .duration {
+      margin: 0;
+      line-height: 1.2em;
+      font-size: 1em;
+    }
+  }
+}
