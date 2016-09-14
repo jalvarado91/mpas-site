@@ -1,0 +1,40 @@
+.about .content {
+  margin-bottom: 64px;
+}
+
+.about .staff {
+  text-align: center;
+  margin-bottom: 24px;
+  .image {
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  .info {
+    .name {
+      color: $primary-red;
+      font-size: 1.2em;
+      margin: 0;
+      letter-spacing: 3px;
+      margin-bottom: 4px;
+      margin-bottom: 4px;
+    }
+    .title {
+      font-weight: $bold;
+      margin: 0;
+    }
+    .bio {
+
+    }
+  }
+  @include min-bp(670px) {
+    text-align: left;
+    .image {
+      float: left;
+      margin-right: 18px;
+    }
+    .bio {
+      font-size: 1.1em;
+      line-height: 1.5em;
+    }
+  }
+}
