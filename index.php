@@ -9,7 +9,7 @@ include('./includes/head.php'); ?>
       <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
-        <a href="#" class="action-button">Register</a>
+        <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
       </div>
     </div>
     <div class="slide">
@@ -17,7 +17,7 @@ include('./includes/head.php'); ?>
       <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
-        <a href="#" class="action-button">Register</a>
+        <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
       </div>
     </div>
     <div class="slide">
@@ -25,7 +25,7 @@ include('./includes/head.php'); ?>
       <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
-        <a href="#" class="action-button">Register</a>
+        <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
       </div>
     </div>
     <div class="slide">
@@ -33,7 +33,7 @@ include('./includes/head.php'); ?>
       <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
-        <a href="#" class="action-button">Register</a>
+        <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
       </div>
     </div>
   </section>

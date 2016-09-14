@@ -1,3 +1,4 @@
+<?php include('options.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,31 +9,35 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<body class="<?php echo $bodyClass ?? ''; ?>">
+<body class="<?php echo $bodyClass != '' ? $bodyClass : ''; ?>">
 
   <div class="nav">
     <div class="top">
       <div class="nav-container">
         <div class="top__nav-wrap">
-          <div class="logo">
+          <a href="/" class="logo">
             <img class="img-responsive" src="/assets/img/logo.png" alt="">
-          </div>
+          </a>
+          <a class="mobile-trigger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-close" aria-hidden="true"></i>
+          </a>
           <div class="menu">
             <ul class="navigation">
-              <li><a href="#">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li class="dropdown">
                   <a href="#">Programs <span class="fa fa-angle-down"></span></a>
                   <ul class="subnav">
-                      <li><a href="#">Musical Theater</a></li>
-                      <li><a href="#">Dance</a></li>
-                      <li><a href="#">Music</a></li>
-                      <li><a href="#">Pre-Professional Program</a></li>
+                      <li><a href="<?php echo $musicalTheatherUrl; ?>">Musical Theater</a></li>
+                      <li><a href="<?php echo $danceUrl; ?>">Dance</a></li>
+                      <li><a href="<?php echo $musicUrl; ?>">Music</a></li>
+                      <li><a href="<?php echo $preProfUrl; ?>">Pre-Professional Program</a></li>
                   </ul>
               </li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a class="register-btn" href="#">Register</a></li>
+              <li><a href="<?php echo $scheduleUrl; ?>">Schedule</a></li>
+              <li><a href="<?php echo $aboutUrl; ?>">About Us</a></li>
+              <li><a href="<?php echo $contactUrl; ?>">Contact</a></li>
+              <li><a class="register-btn" href="<?php echo $registerUrl; ?>">Register</a></li>
             </ul>
           </div>
         </div>
