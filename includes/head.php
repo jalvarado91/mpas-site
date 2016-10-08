@@ -28,10 +28,11 @@
               <li class="dropdown">
                   <a href="#">Programs <span class="fa fa-angle-down"></span></a>
                   <ul class="subnav">
-                      <li><a href="<?php echo $musicalTheatherUrl; ?>">Musical Theater</a></li>
                       <li><a href="<?php echo $danceUrl; ?>">Dance</a></li>
                       <li><a href="<?php echo $musicUrl; ?>">Music</a></li>
+                      <li><a href="<?php echo $voiceUrl; ?>">Voice</a></li>
                       <li><a href="<?php echo $preProfUrl; ?>">Pre-Professional Program</a></li>
+                      <li><a href="<?php echo $musicalTheatherUrl; ?>">Musical Theater &amp; Workshops</a></li>
                   </ul>
               </li>
               <li><a href="<?php echo $scheduleUrl; ?>">Schedule</a></li>

@@ -38,6 +38,13 @@ include('./includes/head.php'); ?>
             <div class="room">
               <h4>Room 2</h4>
               <div class="event">
+                <p class="time">6:30pm</p>
+                <p class="detail">
+                  <strong>*NEW</strong> Musical Theater Vocal Ensemble
+                </p>
+              </div>
+
+              <div class="event">
                 <p class="time">Beginning at 2:00pm to 8:30pm</p>
                 <p class="detail">
                   Private Lessons. <br>
@@ -86,7 +93,7 @@ include('./includes/head.php'); ?>
               <div class="event">
                 <p class="time">6:30pm to 7:30pm</p>
                 <p class="detail">
-                  Rhythm Rebels <br>(group hand percussion 10+)
+                  Rhythm Rebels <br>(group hand percussion, ages 10 and up)
                 </p>
               </div>
               <div class="event">
@@ -159,7 +166,7 @@ include('./includes/head.php'); ?>
               <div class="event">
                 <p class="time">7:30pm to 8:30pm</p>
                 <p class="detail">
-                  Rhythm Rebels (group hand percussion 10+)
+                  Rhythm Rebels (group hand percussion, ages 10 and up)
                 </p>
               </div>
             </div>
@@ -171,7 +178,7 @@ include('./includes/head.php'); ?>
                 <p class="time">Beginning at 2:00pm to 8:30pm</p>
                 <p class="detail">
                   Private Lessons
-                  Piano Guitar, Voice <br>
+                  Piano, Voice <br>
                   30-60mins <br>
                 </p>
               </div>
@@ -289,6 +296,27 @@ include('./includes/head.php'); ?>
             </div>
           </div>
         </div>
+
+        <br><br>
+
+        <p class="lead">
+          <strong>Pre-Professional</strong> is for students that have
+          signed up for the “Pre-Professional Program”. Students
+          in Pre-Pro will be required to take the following classes: </p>
+
+        <p class="lead">
+          Ballet for Broadway, Broadway Jazz, Voice, Step Into
+          Time and the Friday 2 hour class which will encompass
+          Acting, Choral work, Dance and Performance
+          development. This group will be asked to do some
+          performances in and around the Miami area developing
+          an well rounded performer able to adapt to all stages.
+        </p>
+        <p class="lead">
+          Pre- Prof. students will receive an additional 10% off on
+          all Professional Visiting Artists Workshops throughout
+          the year.
+        </p>
       </div>
 
 
@@ -312,65 +340,44 @@ include('./includes/head.php'); ?>
           <p class="duration">90 min classes</p>
         </div>
       </div>
-      <div class="price col-xs-12 col-sm-6">
+      <!-- <div class="price col-xs-12 col-sm-6">
         <div class="value">$21</div>
         <div class="info">
           <h4 class="title">Intro to Musical Theater</h4>
-          <!-- <p class="duration">60 min classes</p> -->
+          <p class="duration">60 min classes</p>
         </div>
-      </div>
+      </div> -->
       <div class="price col-xs-12 col-sm-6">
         <div class="value">$25</div>
         <div class="info">
-          <h4 class="title">Private Piano, Drums, Guitar</h4>
+          <h4 class="title">Private Piano, Drums</h4>
           <p class="duration">30 min classes</p>
         </div>
       </div>
       <div class="price col-xs-12 col-sm-6">
         <div class="value">$55</div>
         <div class="info">
-          <h4 class="title">Private Piano, Drums Guita (teacher approval)</h4>
+          <h4 class="title">Private Piano, Drums (teacher approval)</h4>
           <p class="duration">60 min classes</p>
         </div>
       </div>
       <div class="price col-xs-12 col-sm-6">
         <div class="value">$35</div>
         <div class="info">
-          <h4 class="title">Pricate Voice (younger studens only)</h4>
+          <h4 class="title">Pricate Voice</h4>
           <p class="duration">30 min classes</p>
         </div>
       </div>
       <div class="price col-xs-12 col-sm-6">
         <div class="value">$65</div>
         <div class="info">
-          <h4 class="title">Private Voice (recommended for older students)</h4>
+          <h4 class="title">Private Voice</h4>
           <p class="duration">60 min classes</p>
         </div>
       </div>
     </div>
 
-    <br><br>
-
-    <p>
-      <strong>Pre-Professional</strong> is for students that have
-      signed up for the “Pre-Professional Program”. Students
-      in Pre-Pro will be required to take the following classes: </p>
-
-      <p>
-        Ballet for Broadway, Broadway Jazz, Voice, Step Into
-        Time and the Friday 2 hour class which will encompass
-        Acting, Choral work, Dance and Performance
-        development. This group will be asked to do some
-        performances in and around the Miami area developing
-        an well rounded performer able to adapt to all stages.
-      </p>
-      <p>
-        Pre- Prof. students will receive an additional 10% off on
-        all Professional Visiting Artists Workshops throughout
-        the year.
-      </p>
-
-    </div>
   </div>
+</div>
 
   <?php include('./includes/footer.php'); ?>

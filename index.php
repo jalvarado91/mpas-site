@@ -5,47 +5,75 @@ include('./includes/head.php'); ?>
   <!-- Home Slider -->
   <section class="home-slider">
     <div class="slide">
-      <div class="image-wrap"><img src="/assets/img/slider/slider_decorating.jpg" alt=""></div>
-      <div class="overlay">
+      <div class="image-wrap"><img src="/assets/img/slider/slider_group1.jpg" alt=""></div>
+      <!-- <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
         <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
-      </div>
+      </div> -->
     </div>
     <div class="slide">
-      <div class="image-wrap"><img src="/assets/img/slider/slider_group1.jpg" alt=""></div>
-      <div class="overlay">
+      <div class="image-wrap"><img src="/assets/img/slider/slider_group4.jpg" alt=""></div>
+      <!-- <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
         <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
-      </div>
+      </div> -->
     </div>
     <div class="slide">
       <div class="image-wrap"><img src="/assets/img/slider/slider_group2.jpg" alt=""></div>
-      <div class="overlay">
+      <!-- <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
         <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
-      </div>
+      </div> -->
     </div>
     <div class="slide">
-      <div class="image-wrap"><img src="/assets/img/slider/slider_julie.jpg" alt=""></div>
-      <div class="overlay">
+      <div class="image-wrap"><img src="/assets/img/slider/slider_drums1.jpg" alt=""></div>
+      <!-- <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
         <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
-      </div>
+      </div> -->
+    </div>
+    <div class="slide">
+      <div class="image-wrap"><img src="/assets/img/slider/slider_group3.jpg" alt=""></div>
+      <!-- <div class="overlay">
+        <p class="subtitle">August 2016</p>
+        <p class="title">Grand Opening</p>
+        <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
+      </div> -->
     </div>
   </section>
   <!-- Home Slider -->
 
   <div class="services">
-    <div class="narrow-container">
-      <p>
-        Ballet for Broadway • Theater Jazz • Drum Set • Group Drum Classes <br>
-        Music Theory • Piano • Character Analysis • Scene Study <br>
-        Floor Barre Technique • Private Coaching <br>
-      </p>
+    <div class="container">
+      <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <h4 class="mb-sm">Rhythm</h4>
+            Rhythm for the Performer<br>
+            Group Drumming
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h4 class="mb-sm">Movement</h4>
+            Jazz<br>
+            Ballet<br>
+            Tap
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h4 class="mb-sm">Music</h4>
+            Piano<br>
+            Drums<br>
+            Theory
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h4 class="mb-sm">Voice</h4>
+            Private Ensemble<br>
+            Audition Prep
+          </div>
+      </div>
+
     </div>
   </div>
 

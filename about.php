@@ -21,7 +21,7 @@ include('./includes/head.php'); ?>
 
     <div class="staff director clearfix">
       <div class="image">
-        <img class="img-responsive" src="/assets/img/julie_smith.jpg" alt="" />
+        <img class="img-responsive" src="/assets/img/julie_smith_dance.jpg" alt="" />
       </div>
       <div class="info">
         <h4 class="name">Julie Pappas Smith</h4>
@@ -104,7 +104,7 @@ include('./includes/head.php'); ?>
         </div>
       </div>
     </div>
-    <div class="staff director clearfix">
+    <!-- <div class="staff director clearfix">
       <div class="image">
         <img class="img-responsive" src="/assets/img/jessica_fox.jpeg" alt="" />
       </div>
@@ -124,7 +124,7 @@ include('./includes/head.php'); ?>
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="staff director clearfix">
       <div class="image">
         <img class="img-responsive" src="/assets/img/alejandro_senior.jpeg" alt="" />

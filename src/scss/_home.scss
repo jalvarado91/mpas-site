@@ -1,9 +1,14 @@
 .home .services {
   padding: 36px 0;
-  font-size: 1.35em;
+  font-size: 1.15em;
   font-weight: 100;
   font-style: italic;
   text-align: center;
+  h4 {
+    margin-top: 12px;
+    text-decoration: underline;
+    font-size: 1.3em;
+  }
 }
 
 .home-content {
@@ -22,7 +27,7 @@
   }
   p {
     @include min-bp(490px) {
-      font-size: 1.1em;
+      font-size: 1.2em;
       font-weight: $light;
     }
   }
@@ -107,7 +112,7 @@
         margin: 0;
         font-size: 2.8em;
         line-height: 1em;
-        font-family: 'Playfair Display', sans-serif;
+        font-weight: $bold;
         margin-bottom: 20px;
       }
       .action-button {

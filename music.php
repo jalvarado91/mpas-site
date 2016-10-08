@@ -66,7 +66,7 @@ include('./includes/head.php'); ?>
         </div>
 
         <div class="program">
-          <h2 class="title">Rhythm Rebels Percussion Ensemble</h2>
+          <h2 class="title">Private Lessons</h2>
           <p class="schedule">
             Schedule TBD​
           </p>
@@ -145,23 +145,6 @@ include('./includes/head.php'); ?>
 
         <div class="program">
           <h2 class="title">Piano Lessons</h2>
-          <p class="schedule">
-            Call To Schedule
-          </p>
-          <!-- <p class="attire">
-            <strong>Attire</strong>: Hair in a neat bun and tight, leotards, tights, ballet skirts ok, ballet slippers
-          </p> -->
-          <div class="description">
-            <p>
-              30 or 60 minute private lessons.
-            </p>
-          </div>
-        </div>
-
-        <h2 class="heading heading-underline">Voice</h2>
-
-        <div class="program">
-          <h2 class="title">Voice Lessons</h2>
           <p class="schedule">
             Call To Schedule
           </p>
