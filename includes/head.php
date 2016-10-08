@@ -32,7 +32,7 @@
                       <li><a href="<?php echo $musicUrl; ?>">Music</a></li>
                       <li><a href="<?php echo $voiceUrl; ?>">Voice</a></li>
                       <li><a href="<?php echo $preProfUrl; ?>">Pre-Professional Program</a></li>
-                      <li><a href="<?php echo $musicalTheatherUrl; ?>">Musical Theater &amp; Workshops</a></li>
+                      <li><a href="<?php echo $musicalTheatherUrl; ?>">Musical Theater</a></li>
                   </ul>
               </li>
               <li><a href="<?php echo $scheduleUrl; ?>">Schedule</a></li>
