@@ -104,6 +104,49 @@ include('./includes/head.php'); ?>
         </div>
       </div>
     </div>
+    <div class="staff director clearfix">
+      <div class="image">
+        <img class="img-responsive" src="/assets/img/kathy.jpg" alt="" />
+      </div>
+      <div class="info">
+        <h4 class="name">Kathy Maichel</h4>
+        <p class="title">Voice</p>
+        <div class="bio">
+          <p>
+            Soprano, Katherine Maichel, received a Bachelor of Music degree in Voice
+            Performance from Florida International University under the tutelage of the
+            American soprano, Kathleen Wilson.
+          </p>
+          <p>
+            At FIU, she had the opportunity to be in contact with an extensive array of
+            prominent performing artists and participated in various performances with the
+            FIU Opera Theater. It is there where she interpreted La Princesse Laoula, the lead
+            role in Emmanuel Chabrier’s L’étoile, appeared in Agrippina by Händel and
+            performed the role of Jenny in the American Opera Street Scene by Kurt Weill,
+            while study-covering, Rose, the main role of the same opera.
+          </p>
+          <p>
+            Katherine has been teaching music to children and teenagers for the last four years
+            and has realized how much she likes helping them with their personal growth.<br>
+            Today, she works with The Motivational Edge Foundation as a voice teacher, and
+            Volunteers with the Foundation “Autism and Music,” serving as an emotional and
+            artistic support to children and adults with special capabilities in music and art
+            activities.
+          </p>
+          <blockquote>
+            “My teaching philosophy is based on personal growth and
+            development, where the student is offered a creative outlet
+            where they can express themselves and develop self-
+            confidence. I help them confront their fears and encourage
+            them to make their own decisions. This, therefore, helps
+            the student not only learn about him or herself as a singer,
+            but as a person as well. Additionally, as much as I care
+            about their personal development, I am also committed to
+            providing a high quality music education experience.”
+          </blockquote>
+        </div>
+      </div>
+    </div>
     <!-- <div class="staff director clearfix">
       <div class="image">
         <img class="img-responsive" src="/assets/img/jessica_fox.jpeg" alt="" />
