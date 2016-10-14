@@ -27,7 +27,8 @@
     max-width: 100px;
     display: inline-block;
     @include min-bp(768px) {
-      max-width: 100px;
+      max-width: 130px;
+      padding: 10px 0px;
     }
   }
 }
@@ -155,7 +156,6 @@
 
 .nav .bottom {
   padding: 2px 0;
-  font-size: 14px;
   a {
     color: white;
   }

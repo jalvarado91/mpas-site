@@ -37,7 +37,7 @@ include('./includes/head.php'); ?>
       </div> -->
     </div>
     <div class="slide">
-      <div class="image-wrap"><img src="/assets/img/slider/slider_drums1.jpg" alt=""></div>
+      <div class="image-wrap"><img src="/assets/img/slider/slider_group7.jpg" alt=""></div>
       <!-- <div class="overlay">
         <p class="subtitle">August 2016</p>
         <p class="title">Grand Opening</p>
