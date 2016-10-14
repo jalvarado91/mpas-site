@@ -21,6 +21,14 @@ include('./includes/head.php'); ?>
       </div> -->
     </div>
     <div class="slide">
+      <div class="image-wrap"><img src="/assets/img/slider/slider_group6.jpg" alt=""></div>
+      <!-- <div class="overlay">
+        <p class="subtitle">August 2016</p>
+        <p class="title">Grand Opening</p>
+        <a href="<?php echo $registerUrl; ?>" class="action-button">Register</a>
+      </div> -->
+    </div>
+    <div class="slide">
       <div class="image-wrap"><img src="/assets/img/slider/slider_group2.jpg" alt=""></div>
       <!-- <div class="overlay">
         <p class="subtitle">August 2016</p>
