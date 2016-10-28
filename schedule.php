@@ -111,7 +111,7 @@ include('./includes/head.php'); ?>
                 <p class="time">5:30pm - 8:30pm</p>
                 <p class="detail">
                   Private Music &amp; Voice Lessons <br>
-                  Set of Hand percussion/Piano/Voicex
+                  Drum Set or Hand Percussion/Piano/Voice
                 </p>
               </div>
             </div>
@@ -157,10 +157,7 @@ include('./includes/head.php'); ?>
               <div class="event">
                 <p class="time">6:15pm to 7:15pm</p>
                 <p class="detail">
-                  Step Into Time <small>(beginning Rhythm class for
-                    Dancers and Musicians, utilizing the voice and natural
-                    movements
-                  </small>
+                  Step Into Time
                 </p>
               </div>
               <div class="event">
@@ -205,15 +202,12 @@ include('./includes/head.php'); ?>
                   Broadway Jazz II ( Live Drumming )
                 </p>
               </div>
-              <div class="event">
+              <!-- <div class="event">
                 <p class="time">8:00pm to 9:00pm</p>
                 <p class="detail">
-                  Step Into Time <small>(beginning Rhythm class for
-                    Dancers and Musicians, utilizing the voice and natural
-                    movements
-                  </small>
+                  Step Into Time
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -225,12 +219,12 @@ include('./includes/head.php'); ?>
                   Private Lessons
                 </p>
               </div>
-              <div class="event">
+              <!-- <div class="event">
                 <p class="time">5:30pm to 6:30pm</p>
                 <p class="detail">
                   Music Theory
                 </p>
-              </div>
+              </div> -->
               <div class="event">
                 <p class="time">6:30pm to 8:00pm</p>
                 <p class="detail">
@@ -364,7 +358,7 @@ include('./includes/head.php'); ?>
       <div class="price col-xs-12 col-sm-6">
         <div class="value">$35</div>
         <div class="info">
-          <h4 class="title">Pricate Voice</h4>
+          <h4 class="title">Private Voice</h4>
           <p class="duration">30 min classes</p>
         </div>
       </div>

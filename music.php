@@ -10,7 +10,7 @@ include('./includes/head.php'); ?>
         <h2 class="heading heading-underline">Drums</h2>
 
         <div class="program">
-          <h2 class="title">Rhythm Rebels I</h2>
+          <h2 class="title">Rhythm Rebels</h2>
           <p class="schedule">
             Tuesday | 6:30pm to 7:30pm
           </p>
@@ -47,7 +47,7 @@ include('./includes/head.php'); ?>
         </div>
 
         <div class="program">
-          <h2 class="title">Rhythm Rebels Percussion Ensemble</h2>
+          <h2 class="title">Percussion Ensemble</h2>
           <p class="schedule">
             Schedule TBD​
           </p>
@@ -106,7 +106,7 @@ include('./includes/head.php'); ?>
         </div>
 
         <div class="program">
-          <h2 class="title">Music Theory I</h2>
+          <h2 class="title">Music Theory</h2>
           <p class="schedule">
             Thursday | 5:30pm to 6:30pm
           </p>
@@ -117,25 +117,6 @@ include('./includes/head.php'); ?>
             <p>
               This is a core class for musicians and vocalists. It should be taken with Step Into Time. Students will learn the fundamentals of basic music notation including the notes, the staff, scales, solfege,  musical terminology, ear training and more.
               <br> 60 minutes.
-            </p>
-          </div>
-          <div class="cta">
-            <a href="<?php echo $registerUrl ?>" class="button">Register</a>
-          </div>
-        </div>
-
-        <div class="program">
-          <h2 class="title">Music Theory II</h2>
-          <p class="schedule">
-            Schedule TBD​
-          </p>
-          <!-- <p class="attire">
-            <strong>Attire</strong>: Hair in a neat bun and tight, leotards, tights, ballet skirts ok, ballet slippers
-          </p> -->
-          <div class="description">
-            <p>
-              This is the next level of theory and will introduce concepts including harmonic progressions, song forms and more advanced ear training.
-              <br> 60 minutes
             </p>
           </div>
           <div class="cta">

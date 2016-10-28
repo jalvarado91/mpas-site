@@ -10,13 +10,21 @@
     width: 90px;
     height: 2px;
     background: $primary-yellow;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
   .title {
     font-family: 'Playfair Display', sans-serif;
     font-size: 1.6em;
     margin: 0;
     margin-bottom: 6px;
+    // &:after {
+    //   content: '';
+    //   display: block;
+    //   width: 45px;
+    //   background: $primary-red;
+    //   height: 1px;
+    //   margin-top: 4px;
+    // }
   }
   .schedule {
     color: $primary-red;
@@ -24,6 +32,7 @@
     margin: 0;
     letter-spacing: 3px;
     margin-bottom: 4px;
+    display: none;
   }
   .attire {
     margin: 0;

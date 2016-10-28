@@ -90,6 +90,24 @@ include('./includes/head.php'); ?>
         </div>
 
         <div class="program">
+          <h2 class="title">Step Into Time - Movement for Performers</h2>
+          <p class="schedule">
+            Wednesday | 7:30pm to 9:00pm
+          </p>
+          <p class="attire">
+            <strong>Attire</strong>: Hair in a bun neat and tight, leotards, tights,ballet skirt, ballet slippers. ( character shoes *)
+          </p>
+          <div class="description">
+            <p>
+               Beginning Rhythm class for Dancers and Musicians, utilizing the voice and natural movements.
+            </p>
+          </div>
+          <div class="cta">
+            <a href="<?php echo $registerUrl; ?>" class="button">Register</a>
+          </div>
+        </div>
+
+        <div class="program">
           <h2 class="title">FLOOR-BARRE®  Zena Rommett Technique</h2>
           <p class="schedule">
             Monday &amp; Wednesday | 6:15pm to 7:15pm
